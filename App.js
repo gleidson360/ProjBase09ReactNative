@@ -35,7 +35,7 @@ export default function App() {
 
         <TextInput
           style={{ backgroundColor: "#fff", padding: 8 }}
-          value={ limite }
+          value={ limite.toString() }
           onChangeText={ definirLimite }
           placeholder="Limite (R$)"
           keyboardType="number-pad"
@@ -57,7 +57,7 @@ export default function App() {
 
         <TextInput
           style={{ backgroundColor: "#fff", marginBottom: 16, padding: 8 }}
-          value={ valor }
+          value={ valor.toString() }
           onChangeText={ mudarValor }
           placeholder="Valor (R$)"
           keyboardType="number-pad"
